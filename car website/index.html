@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav">
+            <div>
+                <h2>CARVILLA</h2>
+            </div>
+            <ul>
+
+                <div>
+                    <li><a class="active" href="#Home">Home</a></li>
+                    <li><a href="#SERVICE">SERVICE</a></li>
+                    <li><a href="# FEATURED CARS"> FEATURED CARS</a></li>
+                    <li><a href="#NEW CARS">NEW CARS</a></li>
+                    <li><a href="#BRANDS">NEW BRANDS</a></li>
+                    <li><a href="#CONTACT">CONTACT</a></li>
+                </div>
+            </ul>
+        </div>
+        <br>
+        <div class="img">
+            <div id="h2">
+
+                <h2 id="g">GET YOUR DESIRED CAR IN RESONABLE PRICE</h2>
+                <br>
+                <p id="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et
+                    dolore magna aliqua.</pr>
+                    <br>
+                    <button type="button" class="btn">Contact us</button>
+                    <br>
+            </div>
+        </div>
+    </div>
+
+    <div id="sidemain">
+        <div class="side">
+            <img class="service pic" src="images.png">
+            <h1 class="h1">Largest Dealership of Cars</h1>
+            <p class="p1">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+        </div>
+        <div class="side">
+            <img class="service pic2" src="images.png">
+            <h1 class="h1">Unlimited Repair Warranty</h1>
+            <p class="p1">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+        </div>
+        <div class="side">
+            <img class="service pic3" src="images.png">
+            <h1 class="h1">Insurance Support</h1>
+            <p class="p1">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+        </div>
+
+
+    </div>
+    <div id="slider">
+        <p class="p1">Checkout the Latest Cars</p>
+        <h1 class="hyper">Newest Cars</h1>
+    </div>
+    <div class="container">
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide"><img src="bmw.png"></div>
+                <div class="swiper-slide"><img src="chevrolet.png"></div>
+                <div class="swiper-slide"><img src="ferrari.png"></div>
+                ...
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableonintercation: false,
+            },
+
+            loop: true,
+
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+
+        });
+
+    </script>
+    <div class="cars">
+        <p>Checkout the Featured Cars</p>
+    </div>
+    <div class="h4">
+        <h1>Featured Cars</h1>
+    </div>
+
+    <div class="features-cars">
+        <div class="features-side">
+            <div class="f1" id="z">
+                <img id="features-img1" class="features-image-class" src="fc1.png">
+            </div>
+
+            <div class="features-text">
+                <p>Model: 2017 3100 Mi 240HPautomatic </p>
+            </div>
+            <div class="feature-paragraph">
+                <h4>BMW 6-Series Gran Coupe
+                    $89,395</h4>
+            </div>
+            <div class="feature-paragraph2">
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                    quia non.</p>
+            </div>
+        </div>
+        <div class="features-side">
+            <div class="f1" id="z">
+                <img id="features-img1" class="features-image-class" src="fc2.png">
+            </div>
+
+            <div class="features-text">
+                <p>Model: 2017 3100 Mi 240HPautomatic </p>
+            </div>
+            <div class="feature-paragraph">
+                <h4>Chevrolet Camaro WMV20
+
+                    $66,575</h4>
+            </div>
+            <div class="feature-paragraph2">
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                    quia non.</p>
+            </div>
+        </div>
+        <div class="features-side">
+            <div class="f1" id="z">
+                <img id="features-img1" class="features-image-class" src="fc3.png">
+            </div>
+
+            <div class="features-text">
+                <p>Model: 2017 3100 Mi 240HPautomatic </p>
+            </div>
+            <div class="feature-paragraph">
+                <h4>Lamborghini V520
+
+                    $125,250</h4>
+            </div>
+            <div class="feature-paragraph2">
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                    quia non.</p>
+            </div>
+        </div>
+        <div class="features-side">
+            <div class="f1" id="z">
+                <img id="features-img1" class="features-image-class" src="fc4.png">
+            </div>
+
+            <div class="features-text">
+                <p>Model: 2017 3100 Mi 240HPautomatic </p>
+            </div>
+            <div class="feature-paragraph">
+                <h4>
+                    Audi A3 Sedan
+                    $95,500
+                </h4>
+            </div>
+            <div class="feature-paragraph">
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                    quia non.</p>
+            </div>
+        </div>
+    </div>
+    <div class="features-cars">
+        <div class="features-side">
+            <div class="f1" id="z">
+                <img id="features-img1" class="features-image-class" src="fc5.png">
+            </div>
+
+            <div class="features-text">
+                <p>Model: 2017 3100 Mi 240HPautomatic </p>
+            </div>
+            <div class="feature-paragraph">
+                <h4>Infiniti Z5
+                    $36,850</h4>
+            </div>
+            <div class="feature-paragraph">
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                    quia non.</p>
+            </div>
+        </div>
+        <div class="features-side">
+            <div class="f1" id="z">
+                <img id="features-img1" class="features-image-class" src="fc6.png">
+            </div>
+
+            <div class="features-text">
+                <p>Model: 2017 3100 Mi 240HPautomatic </p>
+            </div>
+            <div class="feature-paragraph">
+                <h4>Porsche 718 Cayman
+                    $48,500</h4>
+            </div>
+            <div class="feature-paragraph">
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                    quia non.</p>
+            </div>
+        </div>
+        <div class="features-side">
+            <div class="f1" id="z">
+                <img id="features-img1" class="features-image-class" src="fc7.png">
+            </div>
+
+            <div class="features-text">
+                <p>Model: 2017 3100 Mi 240HPautomatic </p>
+            </div>
+            <div class="feature-paragraph">
+                <h4>BMW 8-Series Coupe
+                    $56,000</h4>
+            </div>
+            <div class="feature-paragraph">
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                    quia non.</p>
+            </div>
+        </div>
+        <div class="features-side">
+            <div class="f1" id="z">
+                <img id="features-img1" class="features-image-class" src="fc8.png">
+            </div>
+
+            <div class="features-text">
+                <p>Model: 2017 3100 Mi 240HPautomatic </p>
+            </div>
+            <div class="feature-paragraph">
+                <h4>BMW Xseries-6
+                    $75,800</h4>
+            </div>
+            <div class="feature-paragraph">
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                    quia non.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="slider2">
+        <p class="h1">What Our Clients Say</h1>
+        
+    </div>
+    <div class="container2">
+        <div class="swiper2">
+
+            <div class="swiper-wrapper2">
+
+                <div class="swiper-slide2"><img src="c1.png"></div>
+                <div class="swiper-slide2"><img src="c2.png"></div>
+                <div class="swiper-slide2"><img src="c3.png"></div>
+                ...
+            </div>
+
+            <div class="swiper-pagination2"></div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper2 = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableonintercation: false,
+            },
+
+            loop: true,
+
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+
+        });
+
+    </script>
+   
+
+</body>
+
+</html>
